@@ -7,6 +7,6 @@ This is a WIP guide/series of templates on managing your own response to a cyber
 [Main Guide starts here - Initial Response](./guides/01_initial-response.md)
 
 ## Links
-[References](./references/README.md)
+[Resources](./resources/README.md)
 
 > Future goal is to also have an open source "security" playbook/guide, making the materials and education around best security practises accessible for all in the first place. Preventing the need for this guide. :P
