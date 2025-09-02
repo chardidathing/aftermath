@@ -6,6 +6,9 @@ This is a WIP guide/series of templates on managing your own response to a cyber
 
 [Main Guide starts here - Initial Response](./guides/01_initial-response.md)
 
+## Contribute
+Feel free to [contribute](CONTRIBUTING.md) to the project!
+
 ## Links
 [Resources](./resources/README.md)
 
