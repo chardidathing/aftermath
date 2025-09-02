@@ -30,6 +30,18 @@ sc query type= service state= all
 wmic startup get caption,command
 ```
 
+> You can copy the output of these commands to a text document (Use notepad or similar), to an external flash drive, ***DO NOT*** connect this to your "clean" machine.
+
+### Collecting logs/artifacts
+Some important locations to collect data from are below, not all of these will be of use however if you or someone else would like to inspect them, they're nice to have.
+
+> Since these are files on the disk, you can collect these from a bootable Linux environment or similar. If you are using Bitlocker ensure you have the recovery key to mount the volume.
+
+**Event Logs**: `C:\Windows\System32\winevt\Logs\`
+**Prefetch**: `C:\Windows\Prefetch\`
+**Registry**: `C:\Windows\System32\Config\`
+**AmCache.hve**: `C:\Windows\appcompat\Programs\Amcache.hve`
+
 ### Run a Windows Defender offline scan (This is the easiest and most complete offering from Defender)
 > You can alternatively access this by opening Run (Win+R) and typing `windowsdefender://wdoscan/`
 - Open the Windows Security app
